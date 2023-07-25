@@ -12,20 +12,31 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-          tailwind.config = {
-            theme: {
-              extend: {
-                colors: {
-                  clifford: '#da373d',
-                }
-              }
-            }
-          }
-          // g00gle fonts
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
     </script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <style>
       .manrope-font {
         font-family: "Manrope", sans-serif;
@@ -49,10 +60,15 @@
               src="/images/banner.png"
               class="max-w-sm rounded-lg shadow-2xl"
             />
-            <div>
-
-              
+            <div
+              class="bg-white flex items-center gap-4 p-6 w-2/3 rounded-md shadow -m-9 ml-5 lg:-m-9 md:-m-9"
+            >
+              <i class="fa-solid fa-star text-[#FFC850]"></i>
+              <div class="">
+                <h2>5.00</h2>
+                <p>Trust Pilot Ratings</p>
               </div>
+            </div>
           </div>
           <div>
             <h1 class="text-5xl font-bold">
@@ -68,7 +84,54 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="container mx-0">
+      <!-- feature section -->
+      <div class="text-center">
+        <h2>Our Featured Products</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full lg:ml-6 gap-6">
+          <div class=" card  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-6 ... shadow-xl">
+            <figure><img src="/images/tea-1.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="">Milk Tea</h2>
+              <p>Creamer could be replaced <br> by fresh milk</p>
+              
+                
+              </div>
+            </div>
+          <div class="card  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-6 ... shadow-xl">
+            <figure><img src="/images/tea-2.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="">Milk Tea</h2>
+              <p>Creamer could be replaced <br> by fresh milk</p>
+              
+                
+              </div>
+            </div>
+          <div class="card  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-6 ... shadow-xl">
+            <figure><img src="/images/tea-3.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="">Milk Tea</h2>
+              <p>Creamer could be replaced <br> by fresh milk</p>
+              
+                
+              </div>
+            </div>
+          <div class="card  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-6 ... shadow-xl">
+            <figure><img src="/images/tea-4.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="">Milk Tea</h2>
+              <p>Creamer could be replaced <br> by fresh milk</p>
+              
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
     <footer></footer>
   </body>
 </html>
